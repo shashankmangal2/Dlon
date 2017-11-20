@@ -9,18 +9,21 @@ mkdir /../root/Dlon
 cp -r /.."$DIR"/* /../root/Dlon
 
 cd /../root/Dlon
-chmod +x Dlon.sh
+chmod +x Dlon
 chmod +x ifconfig.sh
 chmod +x mon.sh
 chmod +x wscan.sh
 chmod +x whcap.sh
 chmod +x deauth.sh
 chmod +x aircrack.sh
-mkdir handshakes
 
-echo -e "\t INSTALLISATION COMPLETE\n\n"
+cp Dlon /bin
+
+echo -e "\tINSTALLISATION COMPLETE\n\n"
+echo -e "Now you can execute Dlon anywhere in the os"
+echo -e "Just type Dlon in the terminal"
 sleep 2
 clear
-echo "\nEXITING...."
+echo -e "\nEXITING...."
 sleep 1
 gnome-terminal --command="./Dlon.sh"
