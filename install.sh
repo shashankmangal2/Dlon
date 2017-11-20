@@ -16,6 +16,7 @@ chmod +x wscan.sh
 chmod +x whcap.sh
 chmod +x deauth.sh
 chmod +x aircrack.sh
+mkdir handshakes
 
 echo -e "\t INSTALLISATION COMPLETE\n\n"
 sleep 2
