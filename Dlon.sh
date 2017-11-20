@@ -2,7 +2,8 @@
 
 clear
 echo "This Script is written to automate Wifi Attack"
-DIR="/root/Dlon"
+cd /../root/Dlon
+
 sleep 1  #~ to give 1 sec pause
 slopt () {  #~ function name
 	clear
@@ -22,22 +23,22 @@ slopt () {  #~ function name
 
 	if [ "$IF" = "1" ]
 	then
-		gnome-terminal --command="./.."$DIR"/ifconfig.sh"
+		gnome-terminal --command="./ifconfig.sh"
 	elif [ "$IF" = "2" ]
 	then
-		gnome-terminal --command="./.."$DIR"/mon.sh"
+		gnome-terminal --command="./mon.sh"
 	elif [ "$IF" = "3" ]
 	then
-		gnome-terminal --command="./.."$DIR"/wscan.sh"
+		gnome-terminal --command="./wscan.sh"
 	elif [ "$IF" = "4" ]
 	then
-		gnome-terminal --command="./.."$DIR"/whcap.sh"
+		gnome-terminal --command="./whcap.sh"
 	elif [ "$IF" = "5" ]
 	then
-		gnome-terminal --command="./.."$DIR"/deauth.sh"
+		gnome-terminal --command="./deauth.sh"
 	elif [ "$IF" = "6" ]
 	then
-		gnome-terminal --command="./.."$DIR"/airmon.sh"
+		gnome-terminal --command="./aircrack.sh"
 	elif [ "$IF" = "0" ]
 	then
 		return		
