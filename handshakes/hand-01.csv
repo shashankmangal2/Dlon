@@ -1,0 +1,10 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+6C:F3:7F:8D:CA:D0, 2017-11-18 23:12:17, 2017-11-18 23:13:21, 11,  54, WPA2, CCMP,PSK, -47,      578,      395,   0.  0.  0.  0,  11, LPU Hostels, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+38:A4:ED:EA:EA:57, 2017-11-18 23:12:21, 2017-11-18 23:12:42, -66,       40, 6C:F3:7F:8D:CA:D0,
+F0:C8:50:8D:26:FF, 2017-11-18 23:12:33, 2017-11-18 23:12:47, -58,       20, 6C:F3:7F:8D:CA:D0,
+B0:E2:35:51:09:15, 2017-11-18 23:12:22, 2017-11-18 23:13:20, -48,       14, 6C:F3:7F:8D:CA:D0,LPU Hostels
+5C:51:88:9D:56:2B, 2017-11-18 23:12:18, 2017-11-18 23:12:47, -26,       92, 6C:F3:7F:8D:CA:D0,LPU Hostels
+
