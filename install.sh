@@ -22,8 +22,8 @@ cp Dlon /bin
 echo -e "\tINSTALLISATION COMPLETE\n\n"
 echo -e "Now you can execute Dlon anywhere in the os"
 echo -e "Just type Dlon in the terminal"
-sleep 2
+sleep 5
 clear
 echo -e "\nEXITING...."
 sleep 1
-gnome-terminal --command="./Dlon.sh"
+gnome-terminal --command="Dlon"
